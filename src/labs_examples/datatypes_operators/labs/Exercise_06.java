@@ -13,6 +13,12 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         // write code here
+        double radius = 3.14;
+        int height = 5;
+        double volume = height * Math.PI * radius * radius;
+        double area = 2 * Math.PI * radius * radius;
 
+        System.out.println(volume);
+        System.out.println(area);
     }
 }
